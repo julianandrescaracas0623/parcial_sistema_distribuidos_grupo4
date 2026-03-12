@@ -11,7 +11,7 @@ def inicio():
 def listar_citas(paciente_id: int):
     try:
         conexion = mysql.connector.connect(
-            host="IP_SERVIDOR_BD",
+            host="?",
             user="clase",
             password="1234",
             database="citas_medicas"
